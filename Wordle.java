@@ -13,8 +13,7 @@ public class Wordle {
     // Hint: Pick a random index between 0 and dict.length (not including) using Math.random()
     public static String chooseSecretWord(String[] dict) {
         int selectedIndex = (int)(Math.random() * dict.length);
-        return dict[selectedIndex]
-;
+        return dict[selectedIndex];
     }
 
     // Simple helper: check if letter c appears anywhere in secret (true), otherwise
